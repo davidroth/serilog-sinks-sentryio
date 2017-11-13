@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.Sinks.SentryIO", "src\Serilog.Sinks.SentryIO\Serilog.Sinks.SentryIO.csproj", "{2B4DE1EE-EC7F-4431-A93B-71C24BE860F0}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2D46E83F-B90B-4082-8B1B-4CD1B1B22AD1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serilog.Sinks.SentryIO", "src\Serilog.Sinks.SentryIO\Serilog.Sinks.SentryIO.csproj", "{C363A905-8F18-4BAA-A960-AD63534CFBB3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,15 +13,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2B4DE1EE-EC7F-4431-A93B-71C24BE860F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2B4DE1EE-EC7F-4431-A93B-71C24BE860F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2B4DE1EE-EC7F-4431-A93B-71C24BE860F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2B4DE1EE-EC7F-4431-A93B-71C24BE860F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C363A905-8F18-4BAA-A960-AD63534CFBB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C363A905-8F18-4BAA-A960-AD63534CFBB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C363A905-8F18-4BAA-A960-AD63534CFBB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C363A905-8F18-4BAA-A960-AD63534CFBB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{2B4DE1EE-EC7F-4431-A93B-71C24BE860F0} = {2D46E83F-B90B-4082-8B1B-4CD1B1B22AD1}
+		{C363A905-8F18-4BAA-A960-AD63534CFBB3} = {2D46E83F-B90B-4082-8B1B-4CD1B1B22AD1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {898E63A0-C066-448C-9087-DA414D9AE5AF}
 	EndGlobalSection
 EndGlobal
